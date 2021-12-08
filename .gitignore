@@ -352,3 +352,5 @@ MigrationBackup/
 # 저장 안해도 됨
 *.txt
 *.js
+*.png
+Image/
