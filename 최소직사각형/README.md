@@ -3,7 +3,6 @@
 ## 📍 문제 & 입출력
 
 <img src="./Image/1.png"/>
-
 <img src="./Image/2.png"/>
 
 ## 📍 내가 푼 방법
