@@ -1,4 +1,4 @@
-# Redux
+# 1. Redux 기본 개념
 
 <img src="./Images/1.png"/>
 
