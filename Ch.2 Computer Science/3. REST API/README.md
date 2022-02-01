@@ -1,16 +1,16 @@
 # 3. REST API
 
-### ✏️  REST vs REST API?
+### ✏️  REST(Representational State Transfer)
 
-웹이 HTTP를 제대로 사용하지 못하고 있는 상황을 보고 HTTP의 장점을 최대한 활용할 수 있는 아키텍처로서 REST를 소개했고 이는 HTTP프로토콜을 위도에 맞게 디자인하도록 유도하고 있다. REST의 기본 원칙을 성실히 지킨 서비스 디자인을 `“RESTful”`이라고 표현한다.
-
-- `REST`는 HTTP를 기반으로 클라이언트가 서버의 리소스에 접근하는 방식을 규정한 아키텍처
-- `REST API`는 REST를 기반으로 서비스 API를 구현한 것
+- 소프트웨어 아키텍쳐 (설계 지침, 원리)
+- RESTful 통신 시 HTTP를 사용
+  - 요청 시: 메소드를 통해 클라이언트가 뭘 원하는지 파악 가능
+  - 응답 시: 상태 값으로 서버가 어떻게 처리했는지 파악 가능
 
 ### ✏️  REST API의 구성
 
-- REST API는 자원, 행위, 표현의 3가지 요소로 구성된다.
-- REST는 자체 표현 구조로 구성되어 REST API만으로 HTTP 요청의 내용을 이해할 수 있다.
+- REST API는 자원(resource), 행위(method), 표현(representation)의 3가지 요소로 구성된다.
+- REST API만으로 HTTP 요청의 내용을 이해할 수 있다.
 
 ### ✏️  REST API 설계 원칙
 
