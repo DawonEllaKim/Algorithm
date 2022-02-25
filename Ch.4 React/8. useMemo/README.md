@@ -34,6 +34,8 @@ const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
 <img src="./Images/6.png"/>
 <img src="./Images/7.gif"/>
 
+- [ ] useMemo vs. useEffect vs. useCallback vs. useState?
+
 ---
 
 [ 참고: [https://velog.io/@kysung95/짤막글-useMemo](https://velog.io/@kysung95/%EC%A7%A4%EB%A7%89%EA%B8%80-useMemo) ]
