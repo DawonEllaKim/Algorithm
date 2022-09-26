@@ -8,39 +8,39 @@
 ```jsx
 //이터레이터를 작성한 코드
 const iterableObj = {
-      [Symbol.iterator]() {  
-        let step = 0;
-        return {
-          next() {
-            step++;
-            if (step === 1) {
-              return { value: 'This', done: false};
-            } else if (step === 2) {
-              return { value: 'is', done: false};
-            } else if (step === 3) {
-              return { value: 'iterable.', done: false};
-            }
-            return { value: '', done: true };
-          }
+  [Symbol.iterator]() {
+    let step = 0;
+    return {
+      next() {
+        step++;
+        if (step === 1) {
+          return { value: "This", done: false };
+        } else if (step === 2) {
+          return { value: "is", done: false };
+        } else if (step === 3) {
+          return { value: "iterable.", done: false };
         }
+        return { value: "", done: true };
       },
-    }
-    for (const val of iterableObj) {
-      console.log(val);
-    }
+    };
+  },
+};
+for (const val of iterableObj) {
+  console.log(val);
+}
 ```
 
 ```jsx
 //제너레이터로 다시 작성한 코드
 function* iterableObj() {
-      yield "This";
-      yield "is";
-      yield "iterable.";
-    }
+  yield "This";
+  yield "is";
+  yield "iterable.";
+}
 
-    for (const val of iterableObj()) {
-      console.log(val);
-    }
+for (const val of iterableObj()) {
+  console.log(val);
+}
 ```
 
 ## 🔖 Iterable 이란?
